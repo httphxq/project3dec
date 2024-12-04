@@ -22,7 +22,7 @@ body {
             font-size: 16px;
         }
     
-        header{
+        header {
             .menu {
                 display: flex;
                 align-items: center;
@@ -156,6 +156,110 @@ body {
                         font-weight: 200;
                     }
                 }
+            }
+        }
+
+        main {
+            .text {
+                text-align: center;
+                h1 {
+                    font-weight: 400;
+                    font-size: 35px;
+
+                }
+
+                h2 {
+                    text-align: center;
+                    color: #4F5665;
+                    font-size: 16px;
+                    font-weight: 200;
+
+                }
+            }
+
+            .columns {
+                display: flex;
+                justify-content: space-between;
+                margin: 50px;
+                .column {
+                    text-align: center;
+                    height: 760px;
+                    position: relative;
+                    border: 1px solid #DDDDDD;
+                    border-radius: 10px;
+                    padding: 60px;
+                    .column_top{
+                        h1 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    .green {
+                        display: flex;
+                        h2 {
+                            color: #4F5665;
+                            font-size: 16px;
+                            font-weight: 200;
+                        }
+                        
+                    }
+                    }
+                     .column_button {
+                        position: absolute;
+                        bottom: 10%;
+                        margin-top: 50px;
+                        text-align: center;
+                        h1 {
+                            font-size: 25px;
+                            font-weight: 500;
+                            span {
+                                color: #4F5665;
+                                font-size: 25px;
+                                font-weight: 300;
+                            }
+                        }
+                        button {
+                            color: #F53855;
+                            border: 2px solid #F53855;
+                            border-radius: 30px;
+                            width: 200px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            padding: 15px 0;
+                        }
+                        .active {
+                            color: white;
+                            background-color:#F53855;
+                            border-radius: 30px;
+                            width: 200px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            padding: 15px 0;
+                            box-shadow: 0px 20px 74px -19px rgba(245, 56, 56, 1);
+                        }
+                    }
+            }
+                    
+                }
+
+               
+
+        }
+        .second_main {
+            text-align: center;
+            h2 {
+                font-size: 35px;
+                font-weight: 400px;
+            }
+            h3 {
+                color: #4F5665;
+                font-size: 16px;
+                font-weight: 200;
+                span {
+                    font-weight: 400;
+                }
+            }
+            img {
+                padding-top: 40px;
             }
         }
     }
