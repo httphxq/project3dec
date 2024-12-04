@@ -83,7 +83,56 @@ body .padding header .central img {
   width: 611px;
   height: 382px;
 }
-body .padding header .info {
+body .padding header .info_center {
+  display: flex;
+  justify-content: center;
+}
+body .padding header .info_center .info {
   display: flex;
   width: 1140px;
+  justify-content: space-between;
+  margin: 0 30px;
+  box-shadow: 0px 25px 48px 0px rgba(34, 60, 80, 0.42);
+  border-radius: 15px;
+}
+body .padding header .info_center .info .info_stat {
+  display: flex;
+  padding: 0 30px;
+}
+body .padding header .info_center .info .info_stat .statistics {
+  padding: 0 30px;
+}
+body .padding header .info_center .info .info_stat .statistics h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 40px 0 5px 0;
+}
+body .padding header .info_center .info .info_stat .statistics p {
+  font-weight: 200;
+  font-size: 20px;
+  margin: 5px 0 40px 0;
+}
+body .padding header .header_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+body .padding header .header_bottom .header_bottom_text {
+  text-align: left;
+  width: 428px;
+}
+body .padding header .header_bottom .header_bottom_text h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+body .padding header .header_bottom .header_bottom_text h2 {
+  color: #4F5665;
+  font-size: 16px;
+  font-weight: 200;
+}
+body .padding header .header_bottom .header_bottom_text .green {
+  display: flex;
+  color: #4F5665;
+  font-size: 16px;
+  font-weight: 200;
 }/*# sourceMappingURL=style.css.map */
