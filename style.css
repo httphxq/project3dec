@@ -1,13 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
-.menu {
-    display: flex;
-    justify-content: space-between;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: Rubik, sans-serif;
+  line-height: 1.5;
 }
-.laslesVPN{
-    display: flex;
+body .padding {
+  padding: 60px 180px;
 }
-button{
-    text-decoration: none;
-    border: none;
+body .padding button {
+  text-decoration: none;
+  border: none;
+  background: none;
+  padding: 0 20px;
 }
+body .padding button:hover {
+  cursor: pointer;
+}
+body .padding .gray {
+  color: #4F5665;
+  font-size: 16px;
+}
+body .padding header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .padding header .menu .laslesVPN {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+body .padding header .menu .laslesVPN .img_menu {
+  width: 35px;
+  height: 36px;
+}
+body .padding header .menu .laslesVPN p {
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: medium;
+}
+body .padding header .menu .laslesVPN span {
+  font-weight: bold;
+}
+body .padding header .menu .right_menu button {
+  font-weight: bold;
+  font-size: 16;
+  padding: 20px;
+}
+body .padding header .menu .right_menu .orange {
+  color: #F53855;
+  border: 2px solid #F53855;
+  border-radius: 30px;
+  width: 150px;
+}
+body .padding header .central {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+body .padding header .central .main {
+  width: 555px;
+  text-align: left;
+}
+body .padding header .central .main h1 {
+  font-size: 50px;
+  font-weight: medium;
+  padding: 20px 0;
+}
+body .padding header .central .main h1 span {
+  font-weight: bold;
+}
+body .padding header .central button {
+  background-color: #F53838;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 74px -19px rgb(245, 56, 56);
+}
+body .padding header .central img {
+  width: 611px;
+  height: 382px;
+}
+body .padding header .info {
+  display: flex;
+  width: 1140px;
+}/*# sourceMappingURL=style.css.map */

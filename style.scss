@@ -1,12 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.menu {
-    display: flex;
+body {
+    font-family: Rubik, sans-serif;
+    line-height: 1.5;
+
+    .padding {
+        padding: 60px 180px;
+    
+        button{
+            text-decoration: none;
+            border: none;
+            background: none;
+            padding: 0 20px;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+    
+        .gray {
+            color: #4F5665;
+            font-size: 16px;
+        }
+    
+        header{
+            .menu {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .laslesVPN{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 5px;
+    
+                    .img_menu {
+                        width: 35px;
+                        height: 36px;
+                    }
+                    p {
+                        margin: 0 5px;
+                        font-size: 20px;
+                        font-weight: medium;
+                    }
+                    span {
+                        font-weight: bold;
+                    }
+                }
+    
+                .right_menu{
+                    button {
+                        font-weight: bold;
+                        font-size: 16;
+                        padding: 20px;
+                    }
+    
+                    .orange{
+                        color: #F53855;
+                        border: 2px solid #F53855;
+                        border-radius: 30px;
+                        width: 150px;
+                    }
+    
+                }
+            }
+            .central {
+                padding: 100px 0;
+                display: flex;
+                justify-content: space-between;
+    
+                .main {
+                    width: 555px;
+                    text-align: left;
+                    h1 {
+                        font-size: 50px;
+                        font-weight: medium;
+                        padding: 20px 0;
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                    
+                
+    
+                }
+
+                button {
+                    background-color: #F53838;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    width: 250px;
+                    height: 60px;
+                    border-radius: 10px;
+                    box-shadow: 0px 20px 74px -19px rgba(245, 56, 56, 1);
+                }
+    
+                img {
+                    width: 611px;
+                    height: 382px;
+                }
+            }
+            .info {
+                display: flex;
+                width:1140px
+                justify-content: space-between;
+            }
+        }
+    }
+    
+
+    
 }
-.laslesvpn{
-    display: flex;
-}
-button{
-    text-decoration: none;
-    border: none;
-}
+
+
