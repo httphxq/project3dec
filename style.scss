@@ -189,7 +189,7 @@ body {
                     border-radius: 10px;
                     padding: 60px;
                     .column_top{
-                        h1 {
+                        p {
                         font-size: 18px;
                         font-weight: 500;
                     }
@@ -208,7 +208,7 @@ body {
                         bottom: 10%;
                         margin-top: 50px;
                         text-align: center;
-                        h1 {
+                        p {
                             font-size: 25px;
                             font-weight: 500;
                             span {
@@ -265,6 +265,7 @@ body {
                 display: flex;
                 justify-content: space-between;
                 margin: 50px 0;
+                overflow: auto;
                 .review {
                     width: 400px;
                     height: 230px;
@@ -334,6 +335,7 @@ body {
             .buttons {
                 display: flex;
                 justify-content: space-between;
+                width: 1000px;
                 
                 img {
                     width: 115px;

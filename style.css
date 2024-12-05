@@ -162,7 +162,7 @@ body .padding main .columns .column {
   border-radius: 10px;
   padding: 60px;
 }
-body .padding main .columns .column .column_top h1 {
+body .padding main .columns .column .column_top p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -180,11 +180,11 @@ body .padding main .columns .column .column_button {
   margin-top: 50px;
   text-align: center;
 }
-body .padding main .columns .column .column_button h1 {
+body .padding main .columns .column .column_button p {
   font-size: 25px;
   font-weight: 500;
 }
-body .padding main .columns .column .column_button h1 span {
+body .padding main .columns .column .column_button p span {
   color: #4F5665;
   font-size: 25px;
   font-weight: 300;
@@ -230,6 +230,7 @@ body .padding .second_main .reviews {
   display: flex;
   justify-content: space-between;
   margin: 50px 0;
+  overflow: auto;
 }
 body .padding .second_main .reviews .review {
   width: 400px;
@@ -295,6 +296,7 @@ body .padding .second_main .reviews .rating_text {
 body .padding .second_main .buttons {
   display: flex;
   justify-content: space-between;
+  width: 1000px;
 }
 body .padding .second_main .buttons img {
   width: 115px;
