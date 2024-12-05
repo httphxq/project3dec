@@ -258,8 +258,211 @@ body {
                     font-weight: 400;
                 }
             }
-            img {
-                padding-top: 40px;
+            .planet {
+                margin-top: 70px;
+            }
+            .reviews {
+                display: flex;
+                justify-content: space-between;
+                margin: 50px 0;
+                .review {
+                    width: 400px;
+                    height: 230px;
+                    border-radius: 15px;
+                    border: 1px solid #DDDDDD;
+                    margin: 20px;
+                    padding: 10px;
+                    .review_header {
+                        display: flex;
+                        
+                        .information {
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                padding: 20px;
+                            }
+                            .name_city {
+                                text-align: left;
+                                width: 213px;
+                                h2 {
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    margin: 0;
+                                }
+                                h3 {
+                                    font-size: 14px;
+                                    font-weight: 200;
+                                    color: #4F5665;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        .star {
+                            display: flex;
+                            align-items: center;
+                            margin: 10px 10px 10px 30px;
+                            h2 {
+                                font-size: 16px;
+                                font-weight: 200;
+                            }
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                padding: 10px;
+                            }
+                            
+                        }
+                    }
+                }
+                .review:nth-child(1) {
+                    border: 1px solid #F53855;
+                }
+
+                .rating_text {
+                    color: #0B132A;
+                    font-size: 16px;
+                    font-weight: 200;
+                    text-align: left;
+                    width: 340px;
+                    line-height: 2;
+                    margin-left: 20px;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+                
+                img {
+                    width: 115px;
+                    height: 15px;
+                    padding: 10;
+                }
+                .left_right {
+                    display: flex;
+                    width: 130px;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin: 4px;
+                        padding: 10;
+                    }
+                    .right {
+                        height: 60px;
+                        margin: 4px;
+                        rotate: 180deg;
+                        padding: 10;
+                    }
+
+                }
+            }
+        }
+        footer {
+ 
+            .subscribe{
+                margin-bottom: -116px;
+                margin: 100px;
+                padding:  30px 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 25px 48px 0px rgba(34, 60, 80, 0.42);
+
+                .left_info {
+                    h2 {
+                        font-size: 35px;
+                        font-weight: 300;
+                    }
+                    h3 {
+                        color: #4F5665;
+                        font-size: 16px;
+                        font-weight: 200;
+                    }
+                }
+                button {
+                    background-color: #F53838;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    width: 250px;
+                    height: 60px;
+                    border-radius: 10px;
+                    box-shadow: 0px 20px 74px -19px rgba(245, 56, 56, 1);
+                }
+            }            
+            .footer_menu {
+                display: flex;
+                justify-content: space-between;
+                .left_menu {
+                    text-align: left;
+                    width: 340px;
+                    .laslesVPN{
+                        display: flex;
+                        align-items: center;
+                        margin: 10px 0;
+        
+                        .img_menu {
+                            width: 35px;
+                            height: 36px;
+                        }
+                        p {
+                            margin: 0 5px;
+                            font-size: 20px;
+                            font-weight: medium;
+                        }
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 200;
+                        color: #4F5665;
+                        margin: 30px 0;
+                        span {
+                            font-weight: 300;
+                        }
+                    }
+                    .socmed{
+                        display: flex;
+                        margin: 20px 0 0 -20px;
+                    }
+                    .log {
+                        font-size: 16px;
+                        font-weight: 200;
+                        margin: 10px 0;
+                        h2 { 
+                        color: #AFB5C0;
+                        }
+                        span {
+                            font-weight: 300;
+                        }
+                    }
+                }
+                .right_columns {
+                    display: flex;
+                    justify-content: space-between;
+                    
+                     .right_column {
+                        text-align: left;
+                        margin: 0 50px ;
+                        h2 {
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin: 10px;
+                        }
+                        h3 {
+                            color: #4F5665;
+                            font-size: 16px;
+                            font-weight: 200;
+                            margin: 10px;
+                        }
+                    }
+                }
             }
         }
     }
