@@ -94,10 +94,12 @@ body .padding header .info_center .info {
   margin: 0 30px;
   box-shadow: 0px 25px 48px 0px rgba(34, 60, 80, 0.42);
   border-radius: 15px;
+  padding: 10px 0;
 }
 body .padding header .info_center .info .info_stat {
   display: flex;
-  padding: 0 30px;
+  padding: 0 70px;
+  margin: 12px;
 }
 body .padding header .info_center .info .info_stat .statistics {
   padding: 0 30px;
@@ -105,12 +107,18 @@ body .padding header .info_center .info .info_stat .statistics {
 body .padding header .info_center .info .info_stat .statistics h2 {
   font-size: 25px;
   font-weight: bold;
-  margin: 40px 0 5px 0;
+  margin: 20px 0 5px 0;
 }
 body .padding header .info_center .info .info_stat .statistics p {
   font-weight: 200;
   font-size: 20px;
-  margin: 5px 0 40px 0;
+  margin: 5px 0 20px 0;
+}
+body .padding header .info_center .info .info_stat:nth-child(1) {
+  border-right: 1px solid #ebebeb;
+}
+body .padding header .info_center .info .info_stat:nth-child(2) {
+  border-right: 1px solid #ebebeb;
 }
 body .padding header .header_bottom {
   display: flex;
@@ -129,6 +137,7 @@ body .padding header .header_bottom .header_bottom_text h2 {
   color: #4F5665;
   font-size: 16px;
   font-weight: 200;
+  margin: 20px 0;
 }
 body .padding header .header_bottom .header_bottom_text .green {
   display: flex;
