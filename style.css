@@ -102,7 +102,7 @@ body .padding header .info_center .info .info_stat {
 body .padding header .info_center .info .info_stat .statistics {
   padding: 0 30px;
 }
-body .padding header .info_center .info .info_stat .statistics h1 {
+body .padding header .info_center .info .info_stat .statistics h2 {
   font-size: 25px;
   font-weight: bold;
   margin: 40px 0 5px 0;
@@ -121,7 +121,7 @@ body .padding header .header_bottom .header_bottom_text {
   text-align: left;
   width: 428px;
 }
-body .padding header .header_bottom .header_bottom_text h1 {
+body .padding header .header_bottom .header_bottom_text .bold {
   font-size: 35px;
   font-weight: 400;
 }
@@ -139,11 +139,11 @@ body .padding header .header_bottom .header_bottom_text .green {
 body .padding main .text {
   text-align: center;
 }
-body .padding main .text h1 {
+body .padding main .text h2 {
   font-weight: 400;
   font-size: 35px;
 }
-body .padding main .text h2 {
+body .padding main .text h3 {
   text-align: center;
   color: #4F5665;
   font-size: 16px;
